@@ -2,7 +2,6 @@
   <button id="show-modal" @click="showModal = true" class="btn-modal">ADD USER</button>
 
   
-    <!-- use the modal component, pass in the prop -->
     <Modal :show="showModal" @close="showModal = false">
       <template #header>
         <div >
@@ -62,7 +61,6 @@
     },
     watch: {
       email(value) {
-        // binding this to the data value in the email input
         this.emailData = value;
         this.validateEmail(value);
       }
