@@ -39,7 +39,7 @@ export default {
       users: null,
     };
   },
-  //methods directive içerisinde kullanıcı ekleme ve get post işlemi yapıldı.
+
   methods: {
     addUser: function (item) {
       console.log(item);
