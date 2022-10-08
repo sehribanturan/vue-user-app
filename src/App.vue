@@ -39,7 +39,7 @@ export default {
       users: null,
     };
   },
-
+// kullanıcı ekleme ve data çekme işlemi yapıldı.
   methods: {
     addUser: function (item) {
       console.log(item);
